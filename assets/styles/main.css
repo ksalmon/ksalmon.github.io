@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   height: 100%;
+  background: #f9e26c
 }
 
 body {
@@ -20,12 +21,24 @@ a {
   position: absolute;
   top: 20px;
   left: 20px;
-  max-width: 40px
+  max-width: 50px
 }
 
-.logo img {
+.logo a {
+  background: url(../img/image.jpg);
   border-radius: 50%;
   width: 100%;
+  border: 2px solid #fff;
+
+}
+
+.image {
+  background: url(../img/puppers.gif);
+  background-size: 200%;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 
@@ -84,7 +97,7 @@ p {
 }
 
 .container {
-  text-align: center;
+  text-align: left;
   padding: 50px;
   display: table-cell;
   vertical-align: middle;
