@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   height: 100%;
-  background: #f9e26c
+  background: #ffe26d
 }
 
 body {
@@ -50,7 +50,7 @@ a {
   background-position: center;
   width: 200px;
   height: 200px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .external_links {
